@@ -13,10 +13,11 @@ var htmlArr = {
 };
 
 Gets converted into the following html code
-
+<pre>
 <div>
-<p>'Simple text with no formatting.</p>
+<p>Simple text with no formatting.</p>
 </div>
+</pre>
 
 Usage :
 
