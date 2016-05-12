@@ -2,6 +2,7 @@
 Very simple html templating using JSON.
 
 Sample JSON :
+<pre>
 var htmlArr = {
   type: 'div',
   content: {
@@ -9,7 +10,7 @@ var htmlArr = {
     content: 'Simple text with no formatting.'
   }
 };
-
+</pre>
 
 Gets converted into the following html code
 <pre>
