@@ -4,13 +4,19 @@ Very simple html templating using JSON.
 Sample JSON :
 
 var htmlArr = {
+
   type: 'div',
+  
   content: {
+  
     type: 'p',
+    
     content: 'Simple text with no formatting.'
+    
   }
 
 };
+
 
 Gets converted into the following html code
 <pre>
