@@ -13,11 +13,11 @@ var htmlArr = {
 ```
 
 ... gets converted into the following html code ...
-```HTML
+<pre>
 &lt;div&gt;
 &lt;p&gt;Simple text with no formatting.&lt;/p&gt;
 &lt;/div&gt;
-```
+</pre>
 
 ...on using
 ```javascript
