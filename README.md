@@ -12,14 +12,14 @@ var htmlArr = {
 };
 ```
 
-... gets converted into the following html code ...
+... gets converted into the following html ...
 <pre>
 &lt;div&gt;
 &lt;p&gt;Simple text with no formatting.&lt;/p&gt;
 &lt;/div&gt;
 </pre>
 
-...on using
+... on using the following JS
 ```javascript
 var htmlElement = newElm(htmlArr);
 ```
