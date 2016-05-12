@@ -4,8 +4,7 @@ var newElm = function(obj) {
     return;
   }
   // Create the DOM element as per type attribute
-  var elm = document.createElement(obj.type),
-    prop;
+  var elm = document.createElement(obj.type), prop;
   console.log('TYPE:' + obj.type);
   // For all properties in the JSON
   for (prop in obj) {
