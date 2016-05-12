@@ -24,7 +24,7 @@ Usage :
 var htmlElement = newElm(htmlArr);
 </pre>
 
-Test it [here|https://jsfiddle.net/krishnakumarm777/m9kd572o/]
+Test it [here](https://jsfiddle.net/krishnakumarm777/m9kd572o/)
 
 **Reserved attributes**
 
