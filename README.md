@@ -15,8 +15,8 @@ var htmlArr = {
 Gets converted into the following html code
 <pre>
 &lt;div&gt;
-<p>Simple text with no formatting.</p>
-</div>
+&lt;p&gt;Simple text with no formatting.&lt;/p&gt;
+&lt;/div&gt;
 </pre>
 
 Usage :
