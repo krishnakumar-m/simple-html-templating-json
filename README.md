@@ -24,6 +24,8 @@ Usage :
 var htmlElement = newElm(htmlArr);
 </pre>
 
+Test it (here|https://jsfiddle.net/krishnakumarm777/m9kd572o/)
+
 **Reserved attributes**
 
 type - Tells which the type of DOM element has to be created.
