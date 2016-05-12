@@ -1,8 +1,8 @@
 # simple-html-templating-json
 Very simple html templating using JSON.
 
-Sample JSON :
-<pre>
+The below JSON ...
+'''javascript
 var htmlArr = {
   type: 'div',
   content: {
@@ -10,19 +10,19 @@ var htmlArr = {
     content: 'Simple text with no formatting.'
   }
 };
-</pre>
+'''
 
-Gets converted into the following html code
-<pre>
+... gets converted into the following html code ...
+'''HTML
 &lt;div&gt;
 &lt;p&gt;Simple text with no formatting.&lt;/p&gt;
 &lt;/div&gt;
-</pre>
+'''
 
-Usage :
-<pre>
+...on using
+'''javascript
 var htmlElement = newElm(htmlArr);
-</pre>
+'''
 
 Test it [here](https://jsfiddle.net/krishnakumarm777/m9kd572o/)
 
