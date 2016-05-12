@@ -25,6 +25,8 @@ var htmlElement = newElm(htmlArr);
 
 **Reserved attributes**
 
-type - Tells which the type of DOM element has to be created
+type - Tells which the type of DOM element has to be created.
 
 content - The actual content of the element; can take another element, list of elements or simple text as content.
+
+Any other attribute will be taken as the element's HTML attribute.
