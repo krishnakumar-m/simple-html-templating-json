@@ -20,8 +20,9 @@ Gets converted into the following html code
 </pre>
 
 Usage :
-
+<pre>
 var htmlElement = newElm(htmlArr);
+</pre>
 
 **Reserved attributes**
 
