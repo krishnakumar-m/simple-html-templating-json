@@ -2,7 +2,7 @@
 Very simple html templating using JSON.
 
 The below JSON ...
-'''javascript
+```javascript
 var htmlArr = {
   type: 'div',
   content: {
@@ -10,19 +10,19 @@ var htmlArr = {
     content: 'Simple text with no formatting.'
   }
 };
-'''
+```
 
 ... gets converted into the following html code ...
-'''HTML
+```HTML
 &lt;div&gt;
 &lt;p&gt;Simple text with no formatting.&lt;/p&gt;
 &lt;/div&gt;
-'''
+```
 
 ...on using
-'''javascript
+```javascript
 var htmlElement = newElm(htmlArr);
-'''
+```
 
 Test it [here](https://jsfiddle.net/krishnakumarm777/m9kd572o/)
 
