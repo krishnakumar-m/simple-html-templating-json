@@ -17,7 +17,8 @@ var newElm = function(obj) {
       // It is content, create the content
       if (prop === 'content') {
         // If the value is string, create a text node
-        if (typeof obj[prop] === 'string') {
+        if (typeof obj[prop] === 'string' ||
+	typeof obj[prop] === 'number') {
           console.log('CONTENT is Text:' + obj[prop]);
           elm.appendChild(document.createTextNode(obj[prop]));
 
@@ -31,7 +32,7 @@ var newElm = function(obj) {
           for (; i < l; i++) {
             // Fixed for a Node appendChild error
             if (typeof tempArray[i] === 'string') {
-              elm.innerHTML = tempArray[i];
+              elm.innerHTML += tempArray[i];
             } else {
               elm.appendChild(newElm(tempArray[i]));
             }
